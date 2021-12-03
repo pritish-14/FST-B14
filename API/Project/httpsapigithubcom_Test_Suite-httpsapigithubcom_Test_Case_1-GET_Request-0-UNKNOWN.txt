@@ -1,0 +1,61 @@
+Status: UNKNOWN
+Time Taken: 833
+Size: 202
+Timestamp: Wed Oct 27 09:54:53 IST 2021
+TestStep: GET Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/emails
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/16.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://api.github.com/user/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer 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
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/16.0.1)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [user, user:email]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [12]
+Access-Control-Allow-Origin: [*]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4988]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [1637:062F:1740BB:1A9B76:6178D495]
+Transfer-Encoding: [chunked]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1635308985]
+Date: [Wed, 27 Oct 2021 04:24:54 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: [W/"d89a121a10bae5348edfbc944984f191208130341837e641e158654c9e7e361e"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2021-11-26 03:13:55 UTC]
+
+[{"email":"s.shettyankush@gmail.com","primary":true,"verified":true,"visibility":"private"},{"email":"47772036+AnkushShetty1@users.noreply.github.com","primary":false,"verified":true,"visibility":null}]
